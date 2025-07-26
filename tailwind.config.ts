@@ -18,6 +18,15 @@ export default {
 			}
 		},
 		extend: {
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-growth': 'var(--gradient-growth)',
+				'gradient-success': 'var(--gradient-success)',
+			},
+			boxShadow: {
+				'glow': 'var(--shadow-glow)',
+				'elegant': 'var(--shadow-elegant)',
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
